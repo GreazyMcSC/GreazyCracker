@@ -1,8 +1,8 @@
 /**
- * Author  : Jakiboy
- * Package : ReVens | Reverse Engineering Toolkit AIO
+ * Author  : GreazyMcSC
+ * Package : GreazyCracker | Reverse Engineering Toolkit AIO
  * Version : 1.5.x
- * Link    : https://github.com/Jakiboy/ReVens
+ * Link    : https://github.com/GreazyMcSC/GreazyCracker
  * license : MIT
  */
 
@@ -43,7 +43,7 @@ const About = () => {
                 <Row>
                   <Col>
                     <div className="image-wrapper">
-                      <img src="./app/assets/img/icon.svg" className="img-fluid" width="64px" height="64px" alt="ReVens Icon" />
+                      <img src="./app/assets/img/icon.svg" className="img-fluid" width="64px" height="64px" alt="GreazyCracker Icon" />
                     </div>
                     <h1>{config.name}</h1>
                     <p><strong>Version</strong> {config.version} (x64)</p>

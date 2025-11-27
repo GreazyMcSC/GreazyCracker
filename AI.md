@@ -1,4 +1,4 @@
-# ReVens AI Assistant Setup
+# GreazyCracker AI Assistant Setup
 
 ## Requirements
 
@@ -26,9 +26,9 @@ ollama pull llama3.2:1b
 
 This downloads the lightweight 1.3GB model optimized for local analysis.
 
-### 3. Restart ReVens
+### 3. Restart GreazyCracker
 
-Close and reopen ReVens. The AI assistant will now be available in the **AI** tab.
+Close and reopen GreazyCracker. The AI assistant will now be available in the **AI** tab.
 
 ## Usage
 
@@ -57,7 +57,7 @@ To change model, edit `src/main/ai.js` and update `this.modelName`.
 **AI not available:**
 - Ensure Ollama is running: `ollama --version`
 - Check if model is downloaded: `ollama list`
-- Restart ReVens after installing Ollama
+- Restart GreazyCracker after installing Ollama
 
 **Slow responses:**
 - First response is slower (model loading)

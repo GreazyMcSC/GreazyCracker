@@ -1,8 +1,8 @@
 /**
- * Author  : Jakiboy
- * Package : ReVens | Reverse Engineering Toolkit AIO
+ * Author  : GreazyMcSC
+ * Package : GreazyCracker | Reverse Engineering Toolkit AIO
  * Version : 1.5.x
- * Link    : https://github.com/Jakiboy/ReVens
+ * Link    : https://github.com/GreazyMcSC/GreazyCracker
  * license : MIT
  */
 
@@ -726,7 +726,7 @@ async function downloadSingleItem(launcher, item) {
 	const fileName = path.basename(fileUrl.split('?')[0]); // Remove query params for filename
 	const itemDir = path.dirname(formatPath(path.join(baseDir, item.path)));
 	const filePath = path.join(itemDir, fileName);
-	const versionFilePath = path.join(itemDir, 'version.revens.txt');
+	const versionFilePath = path.join(itemDir, 'version.GreazyCracker.txt');
 
 	// Check if version file exists and compare versions
 	if (item.version && fs.existsSync(versionFilePath)) {

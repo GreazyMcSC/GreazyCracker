@@ -1,14 +1,15 @@
-# ReVens: Reverse Engineering Toolkit AIO
+# GreazyCracker: Reverse Engineering Toolkit AIO
 
 [![ReVens](assets/preview/banner.png)](#)
+[![GreazyCracker](assets/preview/banner.png)](#)
 
-ReVens is a Windows-based and AI-powered Reverse Engineering Toolkit "All-In-One", built for security purposes (malware analysis, penetration testing) and educational use only. It serves as a comprehensive package manager for reverse engineering tools.
+GreazyCracker is a Windows-based and AI-powered Reverse Engineering Toolkit "All-In-One", built for security purposes (malware analysis, penetration testing) and educational use only. It serves as a comprehensive package manager for reverse engineering tools.
 
 > [!Note]
-> I made ReVens AIO software to share personal experience in RE since **2008**.  
+> I made GreazyCracker AIO software to share personal experience in RE since **2008**.  
 > RE tools are priceless, especially the legacy ones. They deserve a nice place where they can live in peace.  
 > You can still find legacy items on **Wayback Machine**.  
-> [Watch online preview](https://revens.jihadsinnaour.com).
+> [Watch online preview](https://GreazyCracker.jihadsinnaour.com).
 
 ## 🔧 Features
 
@@ -25,31 +26,31 @@ ReVens is a Windows-based and AI-powered Reverse Engineering Toolkit "All-In-One
 This is how it looks, Made with {heart} using **Electron.js** X **React.js**.  
 *The App background is the WebView DevTools itself*.
 
-[![ReVens main GUI](assets/preview/screenshot.png)](#)
+[![GreazyCracker main GUI](assets/preview/screenshot.png)](#)
 
 Each item can be downloaded **separately** from trusted sources.
 
-[![ReVens item downloader](assets/preview/screenshot-1.png)](#)
+[![GreazyCracker item downloader](assets/preview/screenshot-1.png)](#)
 
 Packages are **automatically downloaded**.
 
-[![ReVens packages downloader](assets/preview/screenshot-2.png)](#)
+[![GreazyCracker packages downloader](assets/preview/screenshot-2.png)](#)
 
 Local AI assistant integrated using **Ollama**.
 
-[![ReVens packages downloader](assets/preview/screenshot-3.png)](#)
+[![GreazyCracker packages downloader](assets/preview/screenshot-3.png)](#)
 
 ## 💡 Notices
 
 > [!Important]
 > Respecting the rights of software developers is paramount. Engaging in activities such as bypassing software protections or reverse engineering software without explicit permission is not only generally illegal, but also unethical. It's essential to utilize software in the manner intended by its creators and in compliance with the stipulated terms of service or license agreement.
 
-* ReVens will focus only on the **package manager** itself and not the packages!
+* GreazyCracker will focus only on the **package manager** itself and not the packages!
 * Reverse engineering tools are flagged by **Antivirus** (due to binary patching algorithms, debugging, packing, etc.).
 * You should use a **secure** virtual machine or a sandbox.
 * Many of the included tools are **outdated** and provided solely for legacy purposes!
 * The primary architecture of the packages is **x64**, but other architectures (x86, ARM) can also be supported.
-* ReVens is Windows-based, but still **cross-platform** if you want to build it for Linux.
+* GreazyCracker is Windows-based, but still **cross-platform** if you want to build it for Linux.
 * *— Use it at your own risk. Better Call Saul! —*
 
 ## 🔧 Requirements
@@ -57,12 +58,12 @@ Local AI assistant integrated using **Ollama**.
 * **Windows** 10/11 x64 (Runtime)
 * **Electron.js ^29.4.6 (Node 24.11.0)**
 * **MinGW-w64** or [**Git for Windows**](https://git-scm.com/downloads/win)
-* **Ollama** for AI Assistant [**ReVens AI Assistant Setup**](AI.md)
+* **Ollama** for AI Assistant [**GreazyCracker AI Assistant Setup**](AI.md)
 
 ## 🔧 Build
 
 ```sh
-git clone https://github.com/Jakiboy/ReVens .
+git clone https://github.com/GreazyMcSC/GreazyCracker .
 bash init.sh
 bash run.sh
 bash build.sh
@@ -78,7 +79,7 @@ bash build.sh
 
 ## 🔧 Download
 
-* Download latest ReVens from: [Releases](https://github.com/Jakiboy/ReVens/releases).
+* Download latest GreazyCracker from: [Releases](https://github.com/GreazyMcSC/GreazyCracker/releases).
 
 ## 🔧 TODO
 
@@ -86,9 +87,9 @@ bash build.sh
 
 ## 🔧 Packages
 
-ReVens packages includes:
+GreazyCracker packages includes:
 
-<!-- Auto-generated: ReVens Packages Begin -->
+<!-- Auto-generated: GreazyCracker Packages Begin -->
 
 ### ⚡ Analyzing
 Analyze portable-executables and related files (EXE, DLL, OCX, SYS).
@@ -291,7 +292,7 @@ Unpack and remove binary protection (UPX, ASPack, VMProtect).
 * **[DLL Export Viewer](https://www.nirsoft.net/utils/dll_export_viewer.html)** - *View exported functions of a DLL file.*
 * **[UEFITool](https://github.com/LongSoft/UEFITool)** - *UEFI firmware image viewer and editor.*
 * **[Firmware Tables View](https://www.nirsoft.net/utils/firmware_tables_view.html)** - *Firmware tables (ACPI, SMBIOS) viewer.*
-* **[Ratr](https://github.com/Jakiboy/Ratr)** - *Router Config Extractor.*
+* **[Ratr](https://github.com/GreazyMcSC/Ratr)** - *Router Config Extractor.*
 * **[ResourcesExtract](https://www.nirsoft.net/utils/resources_extract.html)** - *Extract resources from executable files.*
 * **DotNetResExtract** - *Extract .NET assembly resources.*
 * **[BinText](https://www.aldeid.com/wiki/BinText)** - *Fast and powerful text extractor.*
@@ -567,7 +568,7 @@ Generate patching program using binary compare.
 * **RGNerator** - *Generates resource scripts for skinning tools.*
 
 ##### Skin (Patcher skins)
-* **ReVens** - *ReVens custom patcher skin theme.*
+* **GreazyCracker** - *GreazyCracker custom patcher skin theme.*
 * **Vista PinStripe** - *Vista-styled pinstripe patcher skin.*
 * **Blackitem Gui IREC** - *Blackitem IREC themed patcher skin.*
 * **Blackitem Gui SND** - *Blackitem SND themed patcher skin.*
@@ -750,7 +751,7 @@ Helper tools and miscellaneous content.
 * **[MSYS2](https://github.com/nmap/npcap)** - *Unix SDK installer for Windows.*
 * **[Zip](https://gnuwin32.sourceforge.net/packages/zip.htm)** - *Zip installer for Windows.*
 
-<!-- Auto-generated: ReVens Packages End -->
+<!-- Auto-generated: GreazyCracker Packages End -->
 
 ### ⭐ Support:
 

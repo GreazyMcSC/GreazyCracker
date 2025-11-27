@@ -1,5 +1,5 @@
 # Changelog
-All notable changes to ReVens.
+All notable changes to GreazyCracker.
 
 --------------------------
 

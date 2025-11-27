@@ -1,10 +1,10 @@
 {
-  "name": "revens",
+  "name": "GreazyCracker",
   "version": "1.5.2",
-  "productName": "ReVens",
-  "CompanyName": "Jakiboy",
+  "productName": "GreazyCracker",
+  "CompanyName": "GreazyMcSC",
   "FileDescription": "Reverse Engineering Toolkit AIO",
-  "LegalCopyright": "Jakiboy 2026",
+  "LegalCopyright": "GreazyMcSC 2026",
   "description": "Reverse Engineering Toolkit AIO",
   "main": "main.js",
   "scripts": {

@@ -13,6 +13,6 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpCmdLine, int nShowC
     fclose(file);
     buffer[sizeof(buffer) - 1] = '\0';
 
-    MessageBoxA(NULL, buffer, "ReVens demo", MB_OK);
+    MessageBoxA(NULL, buffer, "GreazyCracker demo", MB_OK);
     return 0;
 }

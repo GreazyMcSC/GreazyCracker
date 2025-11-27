@@ -1,8 +1,8 @@
 /**
- * Author  : Jakiboy
- * Package : ReVens | Reverse Engineering Toolkit AIO
+ * Author  : GreazyMcSC
+ * Package : GreazyCracker | Reverse Engineering Toolkit AIO
  * Version : 1.5.x
- * Link    : https://github.com/Jakiboy/ReVens
+ * Link    : https://github.com/GreazyMcSC/GreazyCracker
  * license : MIT
  */
 
@@ -45,7 +45,7 @@ app.once('ready', () => {
     setup();
 
     if (isWindows()) {
-        app.setAppUserModelId('ReVens');
+        app.setAppUserModelId('GreazyCracker');
     }
 
     registerShortcuts();

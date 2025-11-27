@@ -1,8 +1,8 @@
 /**
- * Author  : Jakiboy
- * Package : ReVens | Reverse Engineering Toolkit AIO
+ * Author  : GreazyMcSC
+ * Package : GreazyCracker | Reverse Engineering Toolkit AIO
  * Version : 1.5.x
- * Link    : https://github.com/Jakiboy/ReVens
+ * Link    : https://github.com/GreazyMcSC/GreazyCracker
  * license : MIT
  */
 
@@ -12,7 +12,7 @@ import { generateSlug } from '../helper';
 
 const Tabs = ({ activeTab, setActiveTab }) => {
   return (
-    <ul className="nav nav-tabs mb-2 mt-2 justify-content-center" id="revens-tab" role="tablist">
+    <ul className="nav nav-tabs mb-2 mt-2 justify-content-center" id="GreazyCracker-tab" role="tablist">
       {config.sections.map((section, index) => {
         const slug = generateSlug(section.name);
         return (

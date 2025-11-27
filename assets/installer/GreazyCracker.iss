@@ -1,8 +1,8 @@
 ; ======================================================================================================================
 ; Author  : GreazyMcSC
-; Package : GreazyCracker | Reverse Engineering Toolkit AIO
+; Package : ReVens | Reverse Engineering Toolkit AIO
 ; Version : 1.5.x
-; Link    : https://github.com/GreazyMcSC/GreazyCracker
+; Link    : https://github.com/GreazyMcSC/ReVens
 ; license : MIT
 ;
 ; Copyright (c) 2026 GreazyMcSC (Jihad Sinnaour) <me@jihadsinnaour.com>
@@ -12,7 +12,7 @@
 
 #define InstallerRoot "."
 #define InstallerAppName "GreazyCracker"
-#define InstallerAppVersion "1.5.2"
+#define InstallerAppVersion "1.5.3"
 #define InstallerAppPublisher "GreazyMcSC"
 #define InstallerAppURL "https://github.com/GreazyMcSC/GreazyCracker"
 #define InstallerAppExeName "GreazyCracker.exe"
@@ -89,11 +89,11 @@ Name: "{autodesktop}\{#InstallerAppName}"; Filename: "{app}\{#InstallerAppExeNam
 ; Run:
 
 [Run]
-; Hide GreazyCracker Source
+; Hide ReVens Source
 Filename: "{app}\protect.bat"; Parameters: "install"; Flags: runhidden waituntilterminated
 
 ; Remove protect.bat after execution
 Filename: "{cmd}"; Parameters: "/c del ""{app}\protect.bat"""; Flags: runhidden waituntilterminated
 
-; Start GreazyCracker
+; Start ReVens
 Filename: "{app}\{#InstallerAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(InstallerAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent

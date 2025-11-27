@@ -1,118 +1,118 @@
 {
-	"name": "ReVens",
+	"name": "GreazyCracker",
 	"desc": "Reverse Engineering Toolkit AIO",
 	"notice": "Pentesting v{version}",
-	"url": "https://github.com/Jakiboy/ReVens",
-	"version": "1.5.2",
+	"url": "https://github.com/GreazyMcSC/GreazyCracker",
+	"version": "1.5.3",
 	"year": "2026",
 	"author": {
-		"name": "Jihad Sinnaour",
-		"nickname": "Jakiboy",
-		"url": "https://github.com/Jakiboy"
+		"name": "GreazyMcSC",
+		"nickname": "CatBoi",
+		"url": "https://github.com/GreazyMcSC"
 	},
 	"about": {
 		"desc": "The Ultimate Reverse Engineering Toolkit AIO"
 	},
 	"doc": {
-		"desc": "Windows-based Reverse Engineering Toolkit 'All-In-One', Built for <strong>Security (Penetration testing)</strong> & <strong>Educational purposes only</strong>."
+		"desc": "Windows-based Reverse Engineering Toolkit 'All-In-One', Built for <strong>Cracking (Hacking)</strong> & <strong>Patching</strong>."
 	},
 	"baseDir": false,
 	"items": {
-		"host": "https://revens.jihadsinnaour.com/download",
+		"host": "https://GreazyCracker.jihadsinnaour.com/download",
 		"token": "e4U8fXWuFeOvEA5hOnd6JHkK7doWfZiQ",
 		"pswd": "j0LfzCIvJy",
 		"parts": [
 			{
 				"name": "Analyzing.zip",
-				"hash": "aa895880e3b6256a6f6811e150f7eb43"
+				"hash": "6fcb748cf5c2db64d0408306c8fc0b57"
 			},
 			{
 				"name": "Assembling.zip",
-				"hash": "03de3f7d8e5b6032b4f08676753aa272"
+				"hash": "89efc3e9620ddbaaee98d9bce3c3fdb8"
 			},
 			{
 				"name": "Automating.zip",
-				"hash": "4fc68aab51eb428a2e8ee0e84a17e24b"
+				"hash": "de480997ddbbc3d21fa632d9c6582b2a"
 			},
 			{
 				"name": "Bypassing.zip",
-				"hash": "ecf9379a6ecd73f1b4ab9ac675f87a75"
+				"hash": "40d8cb277cc0ceb2c2713d316ac6ff81"
 			},
 			{
 				"name": "Calculating.zip",
-				"hash": "dd77b24539a4f10a2f4684af57393318"
+				"hash": "e00be4db767443604b2b3c99417d0cc3"
 			},
 			{
 				"name": "Comparing.zip",
-				"hash": "8fca962b97789dee6e6ebace6477c950"
+				"hash": "01afedfaf35de26f06880d54c0005f83"
 			},
 			{
 				"name": "Converting.zip",
-				"hash": "246526ccee634f15b31c945fce39ca5e"
+				"hash": "e891acb012b43e96d4fa185285ce53ca"
 			},
 			{
 				"name": "Debugging.zip",
-				"hash": "5cb7dd5fdcd66160053a81a40386735d"
+				"hash": "6273018e164f67ef445c56a428057a75"
 			},
 			{
 				"name": "Decoding.zip",
-				"hash": "20e8bae27f4807e2561c36a243ce6134"
+				"hash": "2021b17f5f5cc914d690d6ea624e2c1c"
 			},
 			{
 				"name": "Decompiling.zip",
-				"hash": "53fb27d2b12ab22de462bfbb74c38383"
+				"hash": "934f223e790dc16216f59aead5211862"
 			},
 			{
 				"name": "Dependencies.zip",
-				"hash": "a649354aa76a4d8e2b519729bdb5c83e"
+				"hash": "5567ace5948a68bececb7dee664c2271"
 			},
 			{
 				"name": "Disassembling.zip",
-				"hash": "62b059722fe6c20c47acced3be0265e6"
+				"hash": "be6bf66ca5daacfa3886db11b9f0693b"
 			},
 			{
 				"name": "Documentation.zip",
-				"hash": "72accf33ab222cc7bdc307832d00d0eb"
+				"hash": "58d421fe06b52ce19fc801950e0b3b4e"
 			},
 			{
 				"name": "Editing.zip",
-				"hash": "5b59acf5a6e199499381e0a936e92128"
+				"hash": "86d9c95f2934102845d95a497de0ab23"
 			},
 			{
 				"name": "Encoding.zip",
-				"hash": "f9bccfaf6ba2fd5ea1b5995e689a9989"
+				"hash": "6d59995d5becea7a5c491f5d55be6f84"
 			},
 			{
 				"name": "Extracting.zip",
-				"hash": "3a595521c12a0991fb1d84aa066da95e"
+				"hash": "07badac764d2e59d8d0128a8e83ef9cb"
 			},
 			{
 				"name": "Hexing.zip",
-				"hash": "200fa2c882c78d3473cb7185410361ec"
+				"hash": "f65f0accebef8fffc8afe086a2b3867b"
 			},
 			{
 				"name": "Mobile.zip",
-				"hash": "8dde0d5c2e7c1a289521728ef04d5bf0"
+				"hash": "0e7c3e88f6e2f26535a9d759987dbd3d"
 			},
 			{
 				"name": "Packing.zip",
-				"hash": "fe810f3cf90a2c5fb4a1701d78ca4ff2"
+				"hash": "202e68d8a78fab209d9cc88c4a56f15a"
 			},
 			{
 				"name": "Patching.zip",
-				"hash": "a4fe36287c3d32e89642fd8fc02886ea"
+				"hash": "f376ef6e2f49a9c55816c69295018473"
 			},
 			{
 				"name": "Programming.zip",
-				"hash": "3e5f046a8a7d3e77d46e2bcb6cf9d12a"
+				"hash": "9727c2e1fd75dd350f464d0729a7a694"
 			},
 			{
 				"name": "Simulating.zip",
-				"hash": "4ff5751988262a4e8bf7fc6162b37a31"
+				"hash": "8141934069ee1ecf06d3f12dbdcc29b9"
 			},
 			{
 				"name": "Unpacking.zip",
-				"hash": "608271037ddce8791348daa3e95319ce"
+				"hash": "b2b4a442bf35b32e4a1b34c5938e1b8f"
 			}
 		]
 	},

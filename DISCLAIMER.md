@@ -1,14 +1,14 @@
 # DISCLAIMER NOTICE
 
-## WHAT IS REVENS?
+## WHAT IS GreazyCracker?
 
-ReVens is a Windows-based and AI-powered Reverse Engineering Toolkit "All-In-One", built for security purposes (malware analysis, penetration testing) and educational use only. It serves as a comprehensive package manager for reverse engineering tools.
+GreazyCracker is a Windows-based and AI-powered Reverse Engineering Toolkit "All-In-One", built for security purposes (malware analysis, penetration testing) and educational use only. It serves as a comprehensive package manager for reverse engineering tools.
 
 ## LEGAL & ETHICAL NOTICE
 
 Respecting the rights of software developers is paramount. Engaging in activities such as bypassing software protections or reverse engineering software without explicit permission is not only generally illegal, but also unethical. It's essential to utilize software in the manner intended by its creators and in compliance with the stipulated terms of service or license agreement.
 
-**By using ReVens, you agree to use this toolkit solely for:**
+**By using GreazyCracker, you agree to use this toolkit solely for:**
 
 * Authorized security research and penetration testing
 * Malware analysis in controlled environments
@@ -25,42 +25,42 @@ Reverse engineering tools are often flagged by antivirus software due to their u
 
 ### ⚠ RECOMMENDED USAGE ENVIRONMENT
 
-It is strongly recommended to use ReVens in a secure virtual machine or sandbox environment to ensure system safety and proper isolation from your main operating system.
+It is strongly recommended to use GreazyCracker in a secure virtual machine or sandbox environment to ensure system safety and proper isolation from your main operating system.
 
 ### ⚠ TRUSTED SOURCES
 
-ReVens packages are automatically downloaded from trusted and verified sources. However, users should always exercise caution and verify the integrity of downloaded tools.
+GreazyCracker packages are automatically downloaded from trusted and verified sources. However, users should always exercise caution and verify the integrity of downloaded tools.
 
 ### ⚠ PACKAGE SAFETY
 
-Not all packages (items) included in ReVens are guaranteed to be safe. Some tools may contain experimental features, aggressive behavior, or potentially unwanted modifications. Always use packages with caution, preferably in an isolated environment, and understand what each tool does before executing it.
+Not all packages (items) included in GreazyCracker are guaranteed to be safe. Some tools may contain experimental features, aggressive behavior, or potentially unwanted modifications. Always use packages with caution, preferably in an isolated environment, and understand what each tool does before executing it.
 
 **Note:** File integrity check using token & MD5 hashes is implemented primarily for antivirus detection avoidance and does not ensure self-protection against malicious modifications. Always verify packages before using..
 
 ## LIABILITY DISCLAIMER
 
-ReVens is provided **"AS IS"** without warranty of any kind, either expressed or implied. The authors and contributors of ReVens:
+GreazyCracker is provided **"AS IS"** without warranty of any kind, either expressed or implied. The authors and contributors of GreazyCracker:
 
 * Are **NOT** responsible for any misuse of this toolkit
 * Are **NOT** liable for any damages, legal issues, or consequences resulting from the use or misuse of this software
 * Do **NOT** endorse or encourage any illegal activities
 * Provide this tool for legitimate security research and education only
 
-By downloading, installing, or using ReVens, you acknowledge that you have read, understood, and agreed to this disclaimer. You accept full responsibility for your actions and any consequences that may arise from using this toolkit.
+By downloading, installing, or using GreazyCracker, you acknowledge that you have read, understood, and agreed to this disclaimer. You accept full responsibility for your actions and any consequences that may arise from using this toolkit.
 
 ### — USE AT YOUR OWN RISK. BETTER CALL SAUL! —
 
 ## History
 
-The name **ReVens** originates from **"(R)(e)(v)(e)r(s)e E(n)gineering"**, reflecting its core purpose as a toolkit centered around software reverse-engineering. The project traces its roots back to an unpublished project from around 2010 known as "FutureComp", by "FCG-Team". That early version was built with **AutoPlay Media Studio 6.0 (AMS 6.0)**, but the original project source files were completely lost, leaving only fragments of its design and concept behind.
+The name **GreazyCracker** originates from **"(R)(e)(v)(e)r(s)e E(n)gineering"**, reflecting its core purpose as a toolkit centered around software reverse-engineering. The project traces its roots back to an unpublished project from around 2010 known as "FutureComp", by "FCG-Team". That early version was built with **AutoPlay Media Studio 6.0 (AMS 6.0)**, but the original project source files were completely lost, leaving only fragments of its design and concept behind.
 
-Between 2006 and 2010, the creator, Jakiboy, was heavily involved in using several all-in-one reverse-engineering tool distributions of the era. Notable influences included "CRACKL@B DVD" (2006) published by "eXelab", as well as "Cracking Kit" (2008), which utilized the **PStart** launcher menu. 
+Between 2006 and 2010, the creator, GreazyMcSC, was heavily involved in using several all-in-one reverse-engineering tool distributions of the era. Notable influences included "CRACKL@B DVD" (2006) published by "eXelab", as well as "Cracking Kit" (2008), which utilized the **PStart** launcher menu. 
 
-These early tool collections shaped the vision for what would eventually evolve into ReVens—aiming to modernize, streamline, and rebuild the kind of organized RE environment those classic kits provided, but with a cleaner, more up-to-date launcher and packages manager.
+These early tool collections shaped the vision for what would eventually evolve into GreazyCracker—aiming to modernize, streamline, and rebuild the kind of organized RE environment those classic kits provided, but with a cleaner, more up-to-date launcher and packages manager.
 
 ---
 
-* **Source:** [https://github.com/Jakiboy/ReVens](https://github.com/Jakiboy/ReVens)
+* **Source:** [https://github.com/GreazyMcSC/GreazyCracker](https://github.com/GreazyMcSC/GreazyCracker)
 * **License:** MIT License
 
 For issues, questions, or contributions, please visit the GitHub repository.

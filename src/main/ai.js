@@ -1,8 +1,8 @@
 /**
- * Author  : Jakiboy
- * Package : ReVens | Reverse Engineering Toolkit AIO
+ * Author  : GreazyMcSC
+ * Package : GreazyCracker | Reverse Engineering Toolkit AIO
  * Version : 1.5.x
- * Link    : https://github.com/Jakiboy/ReVens
+ * Link    : https://github.com/GreazyMcSC/GreazyCracker
  * license : MIT
  */
 
@@ -14,10 +14,10 @@ const path = require('path');
 const http = require('http');
 const execAsync = promisify(exec);
 
-class ReVensAI {
+class GreazyCrackerAI {
     constructor() {
-        this.modelName = config?.ai?.model || 'tinyrevens';
-        this.handler = config?.ai?.handler || 'revensai'
+        this.modelName = config?.ai?.model || 'tinyGreazyCracker';
+        this.handler = config?.ai?.handler || 'GreazyCrackerai'
         this.isAvailable = false;
         this.modelDownloaded = false;
         this.messages = {
@@ -72,7 +72,7 @@ class ReVensAI {
         const fileSizeKB = (fileSize / 1024).toFixed(2);
 
         // Set prompt
-        const prompt = `You are a reverse engineering assistant integrated into ReVens toolkit.
+        const prompt = `You are a reverse engineering assistant integrated into GreazyCracker toolkit.
 Analyze this file and provide a brief technical overview:
 
 File: ${fileName}
@@ -83,7 +83,7 @@ Path: ${filePath}
 Provide:
 1. File type identification
 2. Potential use case
-3. Recommended ReVens tools for analysis
+3. Recommended GreazyCracker tools for analysis
 4. Security considerations (if applicable)
 
 Keep the response concise and technical.`;
@@ -158,4 +158,4 @@ Assistant:`;
     }
 }
 
-module.exports = new ReVensAI();
+module.exports = new GreazyCrackerAI();

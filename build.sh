@@ -3,10 +3,10 @@ R='\033[0;31m'
 G='\033[0;32m'
 B='\033[0;96m'
 
-NAME='ReVens'
+NAME='GreazyCracker'
 VERSION='1.5.2'
-DESCRIPTION='ReVens - Reverse Engineering Toolkit AIO 2026'
-AUTHOR='Jakiboy'
+DESCRIPTION='GreazyCracker - Reverse Engineering Toolkit AIO 2026'
+AUTHOR='GreazyMcSC'
 COPYRIGHT="Copyright (c) 2026 ${AUTHOR}"
 OUTPUT='build' # Output path
 SOURCE='src' # Source path
@@ -71,7 +71,7 @@ cp "./assets/installer/protect.bat" "./${OUTPUT}/${NAME}/protect.bat"
 if [ ! -f "./inc/7z.exe" ]; then
     echo "Download 7z..."
     mkdir -p "./inc"
-    git clone "https://github.com/Jakiboy/7z.git/" "./inc/temp"
+    git clone "https://github.com/GreazyMcSC/7z.git/" "./inc/temp"
     mv "./inc/temp/bin/7z.exe" "./inc/7z.exe"
     mv "./inc/temp/bin/7z.dll" "./inc/7z.dll"
     rm -rf "./inc/temp"
@@ -162,7 +162,7 @@ clear
 echo -e "${G}Compiling setup..."
 if [ ! -d "compiler" ]; then
     echo "Download ISCC..."
-    git clone "https://github.com/Jakiboy/ISCC.git/" "./temp"
+    git clone "https://github.com/GreazyMcSC/ISCC.git/" "./temp"
     mv "./temp/bin" "./compiler"
     rm -rf "./temp"
     sleep 2

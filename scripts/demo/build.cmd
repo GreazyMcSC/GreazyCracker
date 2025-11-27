@@ -1,1 +1,1 @@
-gcc revensdemo.c -o revensdemo.exe -mwindows
+gcc GreazyCrackerdemo.c -o GreazyCrackerdemo.exe -mwindows

@@ -19,11 +19,11 @@ APP_JSON_PATH = os.path.join(os.path.dirname(__file__), '..', 'src', 'config', '
 README_PATH = os.path.join(os.path.dirname(__file__), '..', 'README.md')
 TEMPLATE_PATH = os.path.join(os.path.dirname(__file__), 'Readme.md.tpl')
 DOWNLOAD_DIR = os.path.join(os.path.dirname(__file__), '.download')
-TEST_EXE_PATH = os.path.join(os.path.dirname(__file__), 'demo', 'revensdemo.exe')
+TEST_EXE_PATH = os.path.join(os.path.dirname(__file__), 'demo', 'GreazyCrackerdemo.exe')
 
 # Markers for auto-generated content
-BEGIN_MARKER = "<!-- Auto-generated: ReVens Packages Begin -->"
-END_MARKER = "<!-- Auto-generated: ReVens Packages End -->"
+BEGIN_MARKER = "<!-- Auto-generated: GreazyCracker Packages Begin -->"
+END_MARKER = "<!-- Auto-generated: GreazyCracker Packages End -->"
 
 def load_sections():
     """Load sections from sections.json"""

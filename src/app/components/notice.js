@@ -1,8 +1,8 @@
 /**
- * Author  : Jakiboy
- * Package : ReVens | Reverse Engineering Toolkit AIO
+ * Author  : GreazyMcSC
+ * Package : GreazyCracker | Reverse Engineering Toolkit AIO
  * Version : 1.5.x
- * Link    : https://github.com/Jakiboy/ReVens
+ * Link    : https://github.com/GreazyMcSC/GreazyCracker
  * license : MIT
  */
 
@@ -41,7 +41,7 @@ const Notice = () => {
             <Header>
               <div className="text-center w-100">
                 <h1>DISCLAIMER</h1>
-                <p className="muted">Please read this important notice carefully before using ReVens.</p>
+                <p className="muted">Please read this important notice carefully before using GreazyCracker.</p>
               </div>
             </Header>
             <Body>
@@ -49,9 +49,9 @@ const Notice = () => {
                 <Row>
                   <Col>
                     <div className="app-scroller">
-                      <h2>What is ReVens?</h2>
+                      <h2>What is GreazyCracker?</h2>
                       <p>
-                        ReVens is a Windows-based and AI-powered Reverse Engineering Toolkit "All-In-One", built for security purposes (malware analysis, penetration testing)
+                        GreazyCracker is a Windows-based and AI-powered Reverse Engineering Toolkit "All-In-One", built for security purposes (malware analysis, penetration testing)
                         and educational use only. It serves as a comprehensive package manager for reverse engineering tools.
                       </p>
 
@@ -64,7 +64,7 @@ const Notice = () => {
                         in the manner intended by its creators and in compliance with the stipulated terms of service or license agreement.
                       </p>
 
-                      <p>By using ReVens, you agree to use this toolkit solely for:</p>
+                      <p>By using GreazyCracker, you agree to use this toolkit solely for:</p>
                       <ul>
                         <li>Authorized security research and penetration testing</li>
                         <li>Malware analysis in controlled environments</li>
@@ -81,15 +81,15 @@ const Notice = () => {
                       <div className="notice">
                         <p><strong>⚠ ANTIVIRUS DETECTION:</strong> Reverse engineering tools are often flagged by antivirus software due to their use of binary patching algorithms,
                           debugging techniques, packing/unpacking, and other operations that can resemble malware behavior. This is expected and does not necessarily indicate
-                          actual malicious content.</p>
+                          actual malicious content. That said a Malicious package with access to and understanding of this toolkit is a pig in shite</p>
 
-                        <p><strong>⚠ RECOMMENDED USAGE ENVIRONMENT:</strong> It is strongly recommended to use ReVens in a secure virtual machine or sandbox environment to ensure
+                        <p><strong>⚠ RECOMMENDED USAGE ENVIRONMENT:</strong> It is strongly recommended to use GreazyCracker in a secure virtual machine or sandbox environment to ensure
                           system safety and proper isolation from your main operating system.</p>
 
-                        <p><strong>⚠ TRUSTED SOURCES:</strong> ReVens packages are automatically downloaded from trusted and verified sources. However, users should always
+                        <p><strong>⚠ TRUSTED SOURCES:</strong> GreazyCracker packages are manualy downloaded from online sources which can and do change hands. Users should always
                           exercise caution and verify the integrity of downloaded tools.</p>
 
-                        <p><strong>⚠ PACKAGE SAFETY:</strong> Not all packages included in ReVens are guaranteed to be safe. Some tools may contain experimental features,
+                        <p><strong>⚠ PACKAGE SAFETY:</strong> Not all packages included in GreazyCracker are guaranteed to be safe. Some tools may contain experimental features,
                           aggressive behavior, or potentially unwanted modifications. Always use packages with caution, preferably in an isolated environment, and understand
                           what each tool does before executing it.</p>
 
@@ -100,7 +100,7 @@ const Notice = () => {
                       <div className="separator" aria-hidden="true"></div>
 
                       <h2>Liability Disclaimer</h2>
-                      <p>ReVens is provided <strong>"AS IS"</strong> without warranty of any kind, either expressed or implied. The authors and contributors of ReVens:</p>
+                      <p>GreazyCracker is provided <strong>"AS IS"</strong> without warranty of any kind, either expressed or implied. The authors and contributors of GreazyCracker:</p>
 
                       <ul>
                         <li>Are <strong>NOT</strong> responsible for any misuse of this toolkit.</li>
@@ -109,30 +109,17 @@ const Notice = () => {
                         <li>Provide this tool for legitimate security research and education only.</li>
                       </ul>
 
-                      <p>By downloading, installing, or using ReVens, you acknowledge that you have read, understood, and agreed to this disclaimer. You accept full responsibility
+                      <p>By downloading, installing, or using GreazyCracker, you acknowledge that you have read, understood, and agreed to this disclaimer. You accept full responsibility
                         for your actions and any consequences that may arise from using this toolkit.</p>
 
                       <div className="cta">
-                        <span className="danger">— USE AT YOUR OWN RISK. BETTER CALL SAUL! —</span>
+                        <span className="danger">— USE AT YOUR OWN RISK. DONT TRUST A HACKER!!!!  —</span>
                       </div>
 
                       <div className="separator" aria-hidden="true"></div>
 
-                      <h2>History</h2>
-                      <p>
-                        The name <strong>ReVens</strong> originates from <strong>"(R)(e)(v)(e)r(s)e E(n)gineering"</strong>, reflecting its core purpose as a toolkit centered around software reverse-engineering. The project traces its roots back to an unpublished project from around 2010 known as "FutureComp", by "FCG-Team". That early version was built with <strong>AutoPlay Media Studio 6.0 (AMS 6.0)</strong>, but the original project source files were completely lost, leaving only fragments of its design and concept behind.
-                      </p>
-                      <p>
-                        Between 2006 and 2010, the creator, Jakiboy, was heavily involved in using several all-in-one reverse-engineering tool distributions of the era. Notable influences included "CRACKL@B DVD" (2006) published by "eXelab", as well as "Cracking Kit" (2008), which utilized the <strong>PStart</strong> launcher menu.
-                      </p>
-                      <p>
-                        These early tool collections shaped the vision for what would eventually evolve into ReVens—aiming to modernize, streamline, and rebuild the kind of organized RE environment those classic kits provided, but with a cleaner, more up-to-date launcher and packages manager.
-                      </p>
-
-                      <div className="separator" aria-hidden="true"></div>
-
                       <p className="muted">
-                        Source: <a href="https://github.com/Jakiboy/ReVens" className="page-link" target="_blank" rel="noopener noreferrer">GitHub — Jakiboy/ReVens</a><br />
+                        Source: <a href="https://github.com/GreazyMcSC/GreazyCracker" className="page-link" target="_blank" rel="noopener noreferrer">GitHub — GreazyMcSC/GreazyCracker</a><br />
                         License: <a href="https://opensource.org/licenses/MIT" className="page-link" target="_blank" rel="noopener noreferrer">MIT License</a><br />
                         For issues, questions, or contributions, please visit the project's GitHub repository.
                       </p>

@@ -1,8 +1,8 @@
 /**
- * Author  : Jakiboy
- * Package : ReVens | Reverse Engineering Toolkit AIO
+ * Author  : GreazyMcSC
+ * Package : GreazyCracker | Reverse Engineering Toolkit AIO
  * Version : 1.5.x
- * Link    : https://github.com/Jakiboy/ReVens
+ * Link    : https://github.com/GreazyMcSC/GreazyCracker
  * license : MIT
  */
 
@@ -13,7 +13,7 @@ const config = require('../config/app.json');
 function createLauncher() {
 
     const launcher = new BrowserWindow({
-        title: 'ReVens - Reverse Engineering AIO',
+        title: 'GreazyCracker - Reverse Engineering AIO',
         frame: true,
         width: config.width,
         height: config.height,

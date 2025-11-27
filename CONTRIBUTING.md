@@ -1,18 +1,18 @@
-# Contributing to ReVens
+# Contributing to GreazyCracker
 
-Thank you for considering contributing to **ReVens** - The Ultimate Reverse Engineering Toolkit AIO! Follow the steps below to get started.
+Thank you for considering contributing to **GreazyCracker** - The Ultimate Reverse Engineering Toolkit AIO! Follow the steps below to get started.
 
 ## How to Contribute
 
 ### 1. Fork the Repository
 
-Click the **Fork** button in the top-right corner of the [ReVens repository](https://github.com/Jakiboy/ReVens).
+Click the **Fork** button in the top-right corner of the [GreazyCracker repository](https://github.com/GreazyMcSC/GreazyCracker).
 
 ### 2. Clone Your Fork
 
 ```bash
-git clone https://github.com/your-username/ReVens.git
-cd ReVens
+git clone https://github.com/your-username/GreazyCracker.git
+cd GreazyCracker
 ```
 
 See [installation setup & requirements](README.md#installation).
@@ -28,9 +28,9 @@ git checkout -b feature/your-feature-name
 * Follow the project's coding style and guidelines.
 * Ensure your changes are well-documented and tested if applicable.
 
-#### Adding Items to ReVens Packages Manager
+#### Adding Items to GreazyCracker Packages Manager
 
-If you think a missing reverse engineering tool can be added to ReVens Packages Manager, you can add it in the `src/config/items.json`.
+If you think a missing reverse engineering tool can be added to GreazyCracker Packages Manager, you can add it in the `src/config/items.json`.
 
 **Important requirements:**
 * Only items with **open-source code** and download URL from **GitHub** will be accepted
@@ -57,7 +57,7 @@ git push origin feature/your-feature-name
 
 ### 7. Open a Pull Request
 
-Go to the [original repository](https://github.com/Jakiboy/ReVens) and open a pull request.
+Go to the [original repository](https://github.com/GreazyMcSC/GreazyCracker) and open a pull request.
 Provide a clear description of the changes you made.
 
 ## Testing
@@ -81,8 +81,8 @@ Before submitting your pull request, run the following test and validation scrip
 ## Getting Help
 
 If you have questions or need assistance:
-* Open an [issue](https://github.com/Jakiboy/ReVens/issues)
+* Open an [issue](https://github.com/GreazyMcSC/GreazyCracker/issues)
 * Check existing documentation in the [README](README.md)
 * Review the [items.json](src/config/items.json) structure for examples
 
-Thank you for contributing to ReVens!
+Thank you for contributing to GreazyCracker!

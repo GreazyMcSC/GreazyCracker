@@ -1,8 +1,8 @@
 /**
- * Author  : Jakiboy
- * Package : ReVens | Reverse Engineering Toolkit AIO
+ * Author  : GreazyMcSC
+ * Package : GreazyCracker | Reverse Engineering Toolkit AIO
  * Version : 1.5.x
- * Link    : https://github.com/Jakiboy/ReVens
+ * Link    : https://github.com/GreazyMcSC/GreazyCracker
  * license : MIT
  */
 
@@ -29,7 +29,7 @@ const Header = () => {
           style={{ opacity: 0.8 }}
         >
           <style>{`.cog-element{transform-origin: 113.5px 149.17px;}.cog-animate .cog-element{animation: cogSpin 1.5s ease-in-out;}@keyframes cogSpin{0%{transform: rotate(0deg);}100%{transform: rotate(-360deg);}}`}</style>
-          <g id="c2" data-name="ReVens">
+          <g id="c2" data-name="GreazyCracker">
             <g id="c1" data-name="c1">
               <circle cx="149.17" cy="149.17" r="149.17" style={{ fill: '#bb252a' }} />
               <path d="M238,171.79c-1.43-2.69-2.81-5.08-4.12-7.17a50.13,50.13,0,0,0-4-5.57,28.34,28.34,0,0,0-4.17-4.12,20.07,20.07,0,0,0-4.75-2.78v-.36a44.17,44.17,0,0,0,12.24-4.62,34.73,34.73,0,0,0,9.24-7.53,32.43,32.43,0,0,0,5.87-10.18,36.76,36.76,0,0,0,2.06-12.55,32.68,32.68,0,0,0-3.18-14.8,31.13,31.13,0,0,0-8.47-10.59,37.39,37.39,0,0,0-12.07-6.36,45.88,45.88,0,0,0-14-2.16H194.41A5.43,5.43,0,0,0,189,88.43v.09A5.43,5.43,0,0,0,194.41,94h15.47q13.62,0,20.84,6.4T237.94,118a28.12,28.12,0,0,1-2.1,11.12,24.23,24.23,0,0,1-5.92,8.43,26,26,0,0,1-9.19,5.38,35.51,35.51,0,0,1-11.84,1.89H194.41a5.42,5.42,0,0,0-5.42,5.42h0a5.43,5.43,0,0,0,5.42,5.43h7.31a26.3,26.3,0,0,1,7.3.94,18.5,18.5,0,0,1,6.15,3.14,28.69,28.69,0,0,1,5.56,5.87,74.28,74.28,0,0,1,5.56,9.15l17.84,34a5.44,5.44,0,0,0,4.81,2.9h1.59a5.42,5.42,0,0,0,4.77-8Z" style={{ fill: '#fff' }} />

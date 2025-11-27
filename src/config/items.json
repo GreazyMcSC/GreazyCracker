@@ -2389,8 +2389,8 @@
             "sub": "extracting",
             "extra": false,
             "version": "0.4.0",
-            "url": "https://github.com/Jakiboy/Ratr",
-            "download": "https://github.com/Jakiboy/Ratr/releases/download/{version}/Ratr.zip",
+            "url": "https://github.com/GreazyMcSC/Ratr",
+            "download": "https://github.com/GreazyMcSC/Ratr/releases/download/{version}/Ratr.zip",
             "script": false,
             "pswd": false,
             "remove": false
@@ -6036,11 +6036,11 @@
             "remove": false
         },
         {
-            "name": "ReVens",
-            "slug": "revens",
-            "desc": "ReVens custom patcher skin theme",
+            "name": "GreazyCracker",
+            "slug": "GreazyCracker",
+            "desc": "GreazyCracker custom patcher skin theme",
             "type": "exe",
-            "path": "/Patching/Skin/Assets/ReVens",
+            "path": "/Patching/Skin/Assets/GreazyCracker",
             "section": "patching",
             "sub": "skin",
             "extra": "patcher-skins",
