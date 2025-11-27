@@ -83,7 +83,7 @@ bash build.sh
 
 ## 🔧 TODO
 
-* We need contributors for: Advanced AI, Settings, and the Package Downloader.
+* Settings, and the Package Downloader.
 
 ## 🔧 Packages
 
