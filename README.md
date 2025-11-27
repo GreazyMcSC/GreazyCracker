@@ -1,6 +1,6 @@
 # GreazyCracker: Reverse Engineering Toolkit AIO
 
-[![GreazyCracker](assets/img/splash.gif)](#)
+[![GreazyCracker](assets/preview/banner.png)](#)
 
 GreazyCracker is a Windows-based and AI-powered Reverse Engineering Toolkit "All-In-One", built for security purposes (malware analysis, penetration testing) and educational use only. It serves as a comprehensive package manager for reverse engineering tools.
 
