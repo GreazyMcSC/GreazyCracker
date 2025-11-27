@@ -1,15 +1,13 @@
 # GreazyCracker: Reverse Engineering Toolkit AIO
 
-[![ReVens](assets/preview/banner.png)](#)
 [![GreazyCracker](assets/preview/banner.png)](#)
 
 GreazyCracker is a Windows-based and AI-powered Reverse Engineering Toolkit "All-In-One", built for security purposes (malware analysis, penetration testing) and educational use only. It serves as a comprehensive package manager for reverse engineering tools.
 
 > [!Note]
-> I made GreazyCracker AIO software to share personal experience in RE since **2008**.  
 > RE tools are priceless, especially the legacy ones. They deserve a nice place where they can live in peace.  
 > You can still find legacy items on **Wayback Machine**.  
-> [Watch online preview](https://GreazyCracker.jihadsinnaour.com).
+> AI is cancer and killing creativity **ALL AI TO BE REMOVED**. 
 
 ## 🔧 Features
 
@@ -18,7 +16,7 @@ GreazyCracker is a Windows-based and AI-powered Reverse Engineering Toolkit "All
 * **90% portable**: Using portable versions or resolved/included dependencies
 * **Original assets**: Themes, Sounds (e.g. BRD - Teleport Pro.mx, CORE - Power ISO.xm)
 * **Packages manager**: JSON based Downloader, Versioning, Updater
-* **AI-powered**: Basic AI assistant using Ollama (llama3.2:1b)
+* **AI-BORKED**: Basic GAYI assistant using Ollama (llama3.2:1b)
 * **Boilerplate**: For other projects (Electron.js X React.js)
 
 ## 🔧 Screenshot
@@ -28,7 +26,7 @@ This is how it looks, Made with {heart} using **Electron.js** X **React.js**.
 
 [![GreazyCracker main GUI](assets/preview/screenshot.png)](#)
 
-Each item can be downloaded **separately** from trusted sources.
+Each item can be downloaded **separately**.
 
 [![GreazyCracker item downloader](assets/preview/screenshot-1.png)](#)
 
