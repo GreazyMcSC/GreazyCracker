@@ -6316,7 +6316,7 @@
             "section": "patching",
             "sub": "sound",
             "extra": false,
-            "version": "1.79",
+            "version": "2.00",
             "url": false,
             "download": [
                 "https://16-bits.org/ft2-clone-v{version}-win64.zip",

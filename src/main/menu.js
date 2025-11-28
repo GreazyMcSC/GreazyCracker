@@ -7,7 +7,7 @@
  */
 
 const { Menu, app, dialog } = require('electron');
-const { reload, restart, openBinFolder, openChangelog, openUrl, downloadPackages, downloadAIAssistant } = require('./helper');
+const { reload, restart, openBinFolder, openChangelog, openUrl, downloadPackages, downloadAIAssistant, downloadAIAssistant2, downloadAIAssistant3, downloadAIAssistant4, downloadAIAssistant5, downloadAIAssistant6, downloadAIAssistant7, downloadAIAssistant8, downloadAIAssistant9, downloadAIAssistant10, downloadAIAssistant11, downloadAIAssistant12, downloadAIAssistant13, downloadAIAssistant14, downloadAIAssistant15, downloadAIAssistant16, downloadAIAssistant17, downloadAIAssistant18, downloadAIAssistant19 } = require('./helper');
 const config = require('../config/app.json');
 
 function createMenu(launcher) {
@@ -56,8 +56,80 @@ function getTemplate(launcher) {
         },
         { "type": 'separator' },
         {
-            "label": 'Download AI assistant (beta)',
+            "label": 'Download Analysing (.iso)',
             click() { downloadAIAssistant(launcher); }
+        },
+        {
+            "label": 'Download Assembling (.iso)',
+            click() { downloadAIAssistant2(launcher); }
+        },
+        {
+            "label": 'Download Bypassing (.iso)',
+            click() { downloadAIAssistant3(launcher); }
+        },
+        {
+            "label": 'Download Calculating (.iso)',
+            click() { downloadAIAssistant4(launcher); }
+        },
+        {
+            "label": 'Download Comparing (.iso)',
+            click() { downloadAIAssistant5(launcher); }
+        },
+        {
+            "label": 'Download Converting (.iso)',
+            click() { downloadAIAssistant6(launcher); }
+        },
+        {
+            "label": 'Download Debugging (.iso)',
+            click() { downloadAIAssistant7(launcher); }
+        },
+        {
+            "label": 'Download Decoding (.iso)',
+            click() { downloadAIAssistant8(launcher); }
+        },
+        {
+            "label": 'Download Decompiling (.iso)',
+            click() { downloadAIAssistant9(launcher); }
+        },
+        {
+            "label": 'Download Dependencies (.iso)',
+            click() { downloadAIAssistant10(launcher); }
+        },
+        {
+            "label": 'Download Documentation (.iso)',
+            click() { downloadAIAssistant11(launcher); }
+        },
+        {
+            "label": 'Download Editing (.iso)',
+            click() { downloadAIAssistant12(launcher); }
+        },
+        {
+            "label": 'Download Encoding (.iso)',
+            click() { downloadAIAssistant13(launcher); }
+        },
+        {
+            "label": 'Download Extracting (.iso)',
+            click() { downloadAIAssistant14(launcher); }
+        },
+        {
+            "label": 'Download Hexing (.iso)',
+            click() { downloadAIAssistant15(launcher); }
+        },
+        {
+            "label": 'Download Packing (.iso)',
+            click() { downloadAIAssistant16(launcher); }
+        },
+        {
+            "label": 'Download Patching (.iso)',
+            click() { downloadAIAssistant17(launcher); }
+        },
+        {
+            "label": 'Download Programming (.iso)',
+            click() { downloadAIAssistant18(launcher); }
+        },
+        {
+            "label": 'Download Unpacking (.iso)',
+            click() { downloadAIAssistant19(launcher); }
         },
         { "type": 'separator' },
         {

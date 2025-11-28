@@ -18,16 +18,14 @@
 	},
 	"baseDir": false,
 	"items": {
-		"host": "https://ReVens.jihadsinnaour.com/download",
-		"token": "e4U8fXWuFeOvEA5hOnd6JHkK7doWfZiQ",
-		"pswd": "j0LfzCIvJy",
+		"host": "https://archive.org/download/assembling_202511/",
 		"parts": [
 			{
-				"name": "Analyzing.zip",
-				"hash": "6fcb748cf5c2db64d0408306c8fc0b57"
+				"name": "Assembling.txt",
+				"hash": "973d4c8f9663e8e6507fb698f85ccad5"
 			},
 			{
-				"name": "Assembling.zip",
+				"name": "1w74zwnR18QeC0Th9Bv2q1zeZAu-uVguy/view?usp=sharing",
 				"hash": "89efc3e9620ddbaaee98d9bce3c3fdb8"
 			},
 			{
@@ -117,12 +115,282 @@
 		]
 	},
 	"ai": {
-		"name": "Ollama",
-		"handler": "ollama",
-		"model": "tinyllama",
-		"tag": "latest",
-		"url": "https://ollama.com",
-		"download": "https://ollama.com/download/OllamaSetup.exe",
+		"name": "Analysing",
+		"handler": "Analysing",
+		"model": "Analysing",
+		"tag": "Analysing",
+		"url": "Analysing",
+		"download": "https://archive.org/download/assembling_202511/Analysing.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai2": {
+		"name": "Assembling",
+		"handler": "Assembling",
+		"model": "Assembling",
+		"tag": "Assembling",
+		"url": "Assembling",
+		"download": "https://archive.org/download/assembling_202511/Assembling.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai3": {
+		"name": "Bypassing",
+		"handler": "Bypassing",
+		"model": "Bypassing",
+		"tag": "Bypassing",
+		"url": "Bypassing",
+		"download": "https://archive.org/download/assembling_202511/Bypassing.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai4": {
+		"name": "Calculating",
+		"handler": "Calculating",
+		"model": "Calculating",
+		"tag": "Calculating",
+		"url": "Calculating",
+		"download": "https://archive.org/download/assembling_202511/Calculating.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai5": {
+		"name": "Comparing",
+		"handler": "Comparing",
+		"model": "Comparing",
+		"tag": "Comparing",
+		"url": "Comparing",
+		"download": "https://archive.org/download/assembling_202511/Comparing.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai6": {
+		"name": "Converting",
+		"handler": "Converting",
+		"model": "Converting",
+		"tag": "Converting",
+		"url": "Converting",
+		"download": "https://archive.org/download/assembling_202511/Converting.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai7": {
+		"name": "Debugging",
+		"handler": "Debugging",
+		"model": "Debugging",
+		"tag": "Debugging",
+		"url": "Debugging",
+		"download": "https://archive.org/download/assembling_202511/Debugging.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai8": {
+		"name": "Decoding",
+		"handler": "Decoding",
+		"model": "Decoding",
+		"tag": "Decoding",
+		"url": "Decoding",
+		"download": "https://archive.org/download/assembling_202511/Decoding.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai9": {
+		"name": "Decompiling",
+		"handler": "Decompiling",
+		"model": "Decompiling",
+		"tag": "Decompiling",
+		"url": "Decompiling",
+		"download": "https://archive.org/download/assembling_202511/Decompiling.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai10": {
+		"name": "Dependencies",
+		"handler": "Dependencies",
+		"model": "Dependencies",
+		"tag": "Dependencies",
+		"url": "Dependencies",
+		"download": "https://archive.org/download/assembling_202511/Dependencies.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai11": {
+		"name": "Documentation",
+		"handler": "Documentation",
+		"model": "Documentation",
+		"tag": "Documentation",
+		"url": "Documentation",
+		"download": "https://archive.org/download/assembling_202511/Documentation.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai12": {
+		"name": "Editing",
+		"handler": "Editing",
+		"model": "Editing",
+		"tag": "Editing",
+		"url": "Editing",
+		"download": "https://archive.org/download/assembling_202511/Editing.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai13": {
+		"name": "Encoding",
+		"handler": "Encoding",
+		"model": "Encoding",
+		"tag": "Encoding",
+		"url": "Encoding",
+		"download": "https://archive.org/download/assembling_202511/Encoding.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai14": {
+		"name": "Extracting",
+		"handler": "Extracting",
+		"model": "Extracting",
+		"tag": "Extracting",
+		"url": "Extracting",
+		"download": "https://archive.org/download/assembling_202511/Extracting.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai15": {
+		"name": "Hexing",
+		"handler": "Hexing",
+		"model": "Hexing",
+		"tag": "Hexing",
+		"url": "Hexing",
+		"download": "https://archive.org/download/assembling_202511/Hexing.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai16": {
+		"name": "Packing",
+		"handler": "Packing",
+		"model": "Packing",
+		"tag": "Packing",
+		"url": "Packing",
+		"download": "https://archive.org/download/assembling_202511/Packing.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai17": {
+		"name": "Patching",
+		"handler": "Patching",
+		"model": "Patching",
+		"tag": "Patching",
+		"url": "Patching",
+		"download": "https://archive.org/download/assembling_202511/Patching.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai18": {
+		"name": "Programming",
+		"handler": "Programming",
+		"model": "Programming",
+		"tag": "Programming",
+		"url": "Programming",
+		"download": "https://archive.org/download/assembling_202511/Programming.txt",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
+	"ai19": {
+		"name": "Unpacking",
+		"handler": "Unpacking",
+		"model": "Unpacking",
+		"tag": "Unpacking",
+		"url": "Unpacking",
+		"download": "https://archive.org/download/assembling_202511/Unpacking.txt",
 		"config": {
 			"hostname": "127.0.0.1",
 			"port": 11434,
