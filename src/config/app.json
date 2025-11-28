@@ -399,6 +399,21 @@
 			"timeout": 60000
 		}
 	},
+	"ai20": {
+		"name": "Ollama",
+		"handler": "GreazyCrackerai",
+		"model": "tinyGreazyCracker",
+		"tag": "latest",
+		"url": "https://ollama.com",
+		"download": "https://ollama.com/download/OllamaSetup.exe",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
 	"player": "/Patching/Sound/FastTracker/x64/ft2.exe",
 	"resizable": false,
 	"width": 1000,

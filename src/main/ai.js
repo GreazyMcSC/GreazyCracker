@@ -16,8 +16,8 @@ const execAsync = promisify(exec);
 
 class GreazyCrackerAI {
     constructor() {
-        this.modelName = config?.ai?.model || 'tinyGreazyCracker';
-        this.handler = config?.ai?.handler || 'GreazyCrackerai'
+        this.modelName = config?.ai20?.model || 'tinyGreazyCracker';
+        this.handler = config?.ai20?.handler || 'GreazyCrackerai'
         this.isAvailable = false;
         this.modelDownloaded = false;
         this.messages = {

@@ -7,7 +7,7 @@
  */
 
 const { Menu, app, dialog } = require('electron');
-const { reload, restart, openBinFolder, openChangelog, openUrl, downloadPackages, downloadAIAssistant, downloadAIAssistant2, downloadAIAssistant3, downloadAIAssistant4, downloadAIAssistant5, downloadAIAssistant6, downloadAIAssistant7, downloadAIAssistant8, downloadAIAssistant9, downloadAIAssistant10, downloadAIAssistant11, downloadAIAssistant12, downloadAIAssistant13, downloadAIAssistant14, downloadAIAssistant15, downloadAIAssistant16, downloadAIAssistant17, downloadAIAssistant18, downloadAIAssistant19 } = require('./helper');
+const { reload, restart, openBinFolder, openChangelog, openUrl, downloadPackages, downloadAIAssistant, downloadAIAssistant2, downloadAIAssistant3, downloadAIAssistant4, downloadAIAssistant5, downloadAIAssistant6, downloadAIAssistant7, downloadAIAssistant8, downloadAIAssistant9, downloadAIAssistant10, downloadAIAssistant11, downloadAIAssistant12, downloadAIAssistant13, downloadAIAssistant14, downloadAIAssistant15, downloadAIAssistant16, downloadAIAssistant17, downloadAIAssistant18, downloadAIAssistant19, downloadAIAssistant20 } = require('./helper');
 const config = require('../config/app.json');
 
 function createMenu(launcher) {
@@ -130,6 +130,11 @@ function getTemplate(launcher) {
         {
             "label": 'Download Unpacking (.iso)',
             click() { downloadAIAssistant19(launcher); }
+        },
+        { "type": 'separator' },
+        {
+            "label": 'Download AI Assistant (Beta)',
+            click() { downloadAIAssistant20(launcher); }
         },
         { "type": 'separator' },
         {

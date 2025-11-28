@@ -157,6 +157,90 @@ function openBinFolder() {
 }
 
 /**
+ * Download AI assistant20.
+ */
+function downloadAIAssistant20(launcher) {
+
+	const appRoot = config.baseDir || getRoot();
+	const installerName = config.ai20?.name || 'AI';
+	const installerUrl = config.ai20.download;
+	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+
+	// Check if installer already exists and is valid
+	if (fs.existsSync(installerPath)) {
+		try {
+			// Verify file is readable and has size > 0
+			const stats = fs.statSync(installerPath);
+			if (stats.size > 0) {
+				if (!launcher.isDestroyed()) {
+					launcher.webContents.send('open-ai-download');
+					launcher.webContents.send('ai-download-progress', {
+						progress: 100,
+						status: 'Installer already downloaded!',
+						completed: true,
+						installerPath: installerPath
+					});
+				}
+				return;
+			} else {
+				// File is corrupted (0 bytes), delete it
+				fs.unlinkSync(installerPath);
+			}
+		} catch (error) {
+			// File is corrupted or unreadable, delete it
+			try {
+				fs.unlinkSync(installerPath);
+			} catch (unlinkError) {
+				// Ignore unlink errors
+			}
+		}
+	}
+
+	// Reset abort flag
+	aiDownloadAborted = false;
+
+	// Open download modal
+	if (!launcher.isDestroyed()) {
+		launcher.webContents.send('open-ai-download');
+	}
+
+	// Start downloading
+	downloadFileWithProgress(
+		installerUrl,
+		installerPath,
+		(progress) => {
+			if (!launcher.isDestroyed() && !aiDownloadAborted) {
+				launcher.webContents.send('ai-download-progress', {
+					progress: progress,
+					status: `Downloading ${installerName} installer...`
+				});
+			}
+		},
+		'ai'
+
+	).then(() => {
+		if (!launcher.isDestroyed() && !aiDownloadAborted) {
+			launcher.webContents.send('ai-download-progress', {
+				progress: 100,
+				status: 'Download completed!',
+				completed: true,
+				installerPath: installerPath
+			});
+		}
+
+	}).catch((error) => {
+		if (!launcher.isDestroyed()) {
+			launcher.webContents.send('ai-download-progress', {
+				progress: 0,
+				status: aiDownloadAborted ? 'Download aborted' : `Download failed: ${error.message}`,
+				completed: true,
+				error: !aiDownloadAborted
+			});
+		}
+	});
+}
+
+/**
  * Download AI assistant.
  */
 function downloadAIAssistant(launcher) {
@@ -2574,6 +2658,7 @@ module.exports = {
 	downloadAIAssistant17,
 	downloadAIAssistant18,
 	downloadAIAssistant19,
+	downloadAIAssistant20,
 	downloadPackages,
 	startDownload,
 	abortDownload,
