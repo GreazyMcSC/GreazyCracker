@@ -21,12 +21,12 @@ class GreazyCrackerAI {
         this.isAvailable = false;
         this.modelDownloaded = false;
         this.messages = {
-            assistant: config?.strings?.ai?.assistant || 'Hello!'
+            assistant: config?.strings?.ai20?.assistant || 'Hello!'
         };
         this.errors = {
-            system: config?.strings?.ai?.system || 'AI Assistant is not available.',
-            notAssistant: config?.strings?.ai?.error['no-assistant'] || 'AI Assistant is not installed',
-            noModel: config?.strings?.ai?.error['no-model'] || 'AI Model not downloaded or service not running'
+            system: config?.strings?.ai20?.system || 'AI Assistant is not available.',
+            notAssistant: config?.strings?.ai20?.error['no-assistant'] || 'AI Assistant is not installed',
+            noModel: config?.strings?.ai20?.error['no-model'] || 'AI Model not downloaded or service not running'
         };
     }
 
@@ -72,13 +72,13 @@ class GreazyCrackerAI {
         const fileSizeKB = (fileSize / 1024).toFixed(2);
 
         // Set prompt
-        const prompt = `You are a reverse engineering assistant integrated into GreazyCracker toolkit.
+        const prompt = `You are a Angle Dust a Femboy from the TV Show Hazbin Hotel integrated into GreazyCracker toolkit.
 Analyze this file and provide a brief technical overview:
 
-File: ${fileName}
-Extension: ${fileExt}
-Size: ${fileSizeKB} KB
-Path: ${filePath}
+File: {fileName}
+Extension: {fileExt}
+Size: {fileSizeKB} KB
+Path: {filePath}
 
 Provide:
 1. File type identification
@@ -95,7 +95,7 @@ Keep the response concise and technical.`;
         await this.ensureModel();
 
         // Set system context prompt
-        const systemPrompt = `You are a concise reverse engineering assistant. Answer directly and technically. Keep responses under 100 words.
+        const systemPrompt = `You are Angle Dust a Femboy from the TV Show Hazbin Hotel. Answer directly and be funny. Keep responses under 100 words.
 
 User: ${prompt}
 Assistant:`;
@@ -108,15 +108,15 @@ Assistant:`;
             });
 
             const options = {
-                hostname: config?.ai?.config?.hostname || '',
-                port: config?.ai?.config?.port || 0,
-                path: config?.ai?.config?.path || '',
-                method: config?.ai?.config?.method || 'POST',
+                hostname: config?.ai20?.config?.hostname || '',
+                port: config?.ai20?.config?.port || 0,
+                path: config?.ai20?.config?.path || '',
+                method: config?.ai20?.config?.method || 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                     'Content-Length': data.length
                 },
-                timeout: config?.ai?.config?.timeout || 60000
+                timeout: config?.ai20?.config?.timeout || 60000
             };
 
             const req = http.request(options, (res) => {
