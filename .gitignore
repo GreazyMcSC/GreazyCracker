@@ -33,3 +33,4 @@ src/inc/vendor
 *.tmp.iss
 *.temp.py
 scripts/.download
+src/app/assets/img/icon (1).svg
