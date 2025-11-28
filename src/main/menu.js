@@ -7,7 +7,7 @@
  */
 
 const { Menu, app, dialog } = require('electron');
-const { reload, restart, openBinFolder, openChangelog, openUrl, downloadPackages, downloadAIAssistant, downloadAIAssistant2, downloadAIAssistant3, downloadAIAssistant4, downloadAIAssistant5, downloadAIAssistant6, downloadAIAssistant7, downloadAIAssistant8, downloadAIAssistant9, downloadAIAssistant10, downloadAIAssistant11, downloadAIAssistant12, downloadAIAssistant13, downloadAIAssistant14, downloadAIAssistant15, downloadAIAssistant16, downloadAIAssistant17, downloadAIAssistant18, downloadAIAssistant19, downloadAIAssistant20 } = require('./helper');
+const { reload, restart, openBinFolder, openChangelog, openUrl, downloadPackages, downloadAIAssistant, downloadAIAssistant2, downloadAIAssistant3, downloadAIAssistant4, downloadAIAssistant5, downloadAIAssistant6, downloadAIAssistant7, downloadAIAssistant8, downloadAIAssistant9, downloadAIAssistant10, downloadAIAssistant11, downloadAIAssistant12, downloadAIAssistant13, downloadAIAssistant14, downloadAIAssistant15, downloadAIAssistant16, downloadAIAssistant17, downloadAIAssistant18, downloadAIAssistant19, downloadAIAssistant20, downloadAIAssistant21 } = require('./helper');
 const config = require('../config/app.json');
 
 function createMenu(launcher) {
@@ -55,6 +55,10 @@ function getTemplate(launcher) {
             click() { downloadPackages(launcher); }
         },
         { "type": 'separator' },
+        {
+            "label": 'Download all resources (4.5GB .torrent)',
+            click() { downloadAIAssistant21(launcher); }
+        },
         {
             "label": 'Download Analysing (.iso)',
             click() { downloadAIAssistant(launcher); }

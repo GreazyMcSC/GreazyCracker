@@ -414,6 +414,21 @@
 			"timeout": 60000
 		}
 	},
+	"ai21": {
+		"name": "GreazyCracker_v1.5.3-beta.1_resources.torrent",
+		"handler": "GreazyCracker_v1.5.3-beta.1_resources.torrent",
+		"model": "GreazyCracker_v1.5.3-beta.1_resources.torrent",
+		"tag": "GreazyCracker_v1.5.3-beta.1_resources.torrent",
+		"url": "GreazyCracker_v1.5.3-beta.1_resources.torrent",
+		"download": "https://archive.org/download/greazy-cracker-v-1.5.3-beta.-1-resources/GreazyCracker_v1.5.3-beta.1_resources.torrent",
+		"config": {
+			"hostname": "127.0.0.1",
+			"port": 11434,
+			"path": "/api/generate",
+			"method": "POST",
+			"timeout": 60000
+		}
+	},
 	"player": "/Patching/Sound/FastTracker/x64/ft2.exe",
 	"resizable": false,
 	"width": 1000,
