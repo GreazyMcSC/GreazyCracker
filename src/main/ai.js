@@ -147,7 +147,7 @@ Assistant:`;
             });
 
             req.on('timeout', () => {
-                const name = config.ai?.name || 'AI';
+                const name = config.ai20?.name || 'AI';
                 req.destroy();
                 reject(new Error(`Timeout: please check if ${name} service is running`));
             });
