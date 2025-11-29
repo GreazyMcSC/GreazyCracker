@@ -114,7 +114,7 @@
 			}
 		]
 	},
-	"ai": {
+	"ai20": {
 		"name": "Analysing",
 		"handler": "Analysing",
 		"model": "Analysing",
@@ -399,10 +399,10 @@
 			"timeout": 60000
 		}
 	},
-	"ai20": {
+	"ai": {
 		"name": "Ollama",
 		"handler": "GreazyCrackerai",
-		"model": "tinyGreazyCracker",
+		"model": "gemma3:4b",
 		"tag": "latest",
 		"url": "https://ollama.com",
 		"download": "https://ollama.com/download/OllamaSetup.exe",

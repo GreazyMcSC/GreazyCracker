@@ -61,7 +61,7 @@ function getTemplate(launcher) {
         },
         {
             "label": 'Download Analysing (.iso)',
-            click() { downloadAIAssistant(launcher); }
+            click() { downloadAIAssistant20(launcher); }
         },
         {
             "label": 'Download Assembling (.iso)',
@@ -138,7 +138,7 @@ function getTemplate(launcher) {
         { "type": 'separator' },
         {
             "label": 'Download AI Assistant (Beta)',
-            click() { downloadAIAssistant20(launcher); }
+            click() { downloadAIAssistant(launcher); }
         },
         { "type": 'separator' },
         {

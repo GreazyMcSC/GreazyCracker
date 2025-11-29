@@ -16,17 +16,17 @@ const execAsync = promisify(exec);
 
 class GreazyCrackerAI {
     constructor() {
-        this.modelName = config?.ai20?.model || 'tinyGreazyCracker';
-        this.handler = config?.ai20?.handler || 'GreazyCrackerai'
+        this.modelName = config?.ai?.model || 'gemma3:4b';
+        this.handler = config?.ai?.handler || 'GreazyCrackerai'
         this.isAvailable = false;
         this.modelDownloaded = false;
         this.messages = {
-            assistant: config?.strings?.ai20?.assistant || 'Hello!'
+            assistant: config?.strings?.ai?.assistant || 'Hello!'
         };
         this.errors = {
-            system: config?.strings?.ai20?.system || 'AI Assistant is not available.',
-            notAssistant: config?.strings?.ai20?.error['no-assistant'] || 'AI Assistant is not installed',
-            noModel: config?.strings?.ai20?.error['no-model'] || 'AI Model not downloaded or service not running'
+            system: config?.strings?.ai?.system || 'AI Assistant is not available.',
+            notAssistant: config?.strings?.ai?.error['no-assistant'] || 'AI Assistant is not installed',
+            noModel: config?.strings?.ai?.error['no-model'] || 'AI Model not downloaded or service not running'
         };
     }
 
@@ -108,15 +108,15 @@ Assistant:`;
             });
 
             const options = {
-                hostname: config?.ai20?.config?.hostname || '',
-                port: config?.ai20?.config?.port || 0,
-                path: config?.ai20?.config?.path || '',
-                method: config?.ai20?.config?.method || 'POST',
+                hostname: config?.ai?.config?.hostname || '',
+                port: config?.ai?.config?.port || 0,
+                path: config?.ai?.config?.path || '',
+                method: config?.ai?.config?.method || 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                     'Content-Length': data.length
                 },
-                timeout: config?.ai20?.config?.timeout || 60000
+                timeout: config?.ai?.config?.timeout || 60000
             };
 
             const req = http.request(options, (res) => {
@@ -147,7 +147,7 @@ Assistant:`;
             });
 
             req.on('timeout', () => {
-                const name = config.ai20?.name || 'AI';
+                const name = config.ai?.name || 'AI';
                 req.destroy();
                 reject(new Error(`Timeout: please check if ${name} service is running`));
             });

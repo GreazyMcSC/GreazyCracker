@@ -164,7 +164,7 @@ function downloadAIAssistant20(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai20?.name || 'AI';
 	const installerUrl = config.ai20.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -332,7 +332,7 @@ function downloadAIAssistant2(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai2?.name || 'AI';
 	const installerUrl = config.ai2.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -417,7 +417,7 @@ function downloadAIAssistant3(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai3?.name || 'AI';
 	const installerUrl = config.ai3.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -502,7 +502,7 @@ function downloadAIAssistant4(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai4?.name || 'AI';
 	const installerUrl = config.ai4.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -587,7 +587,7 @@ function downloadAIAssistant5(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai5?.name || 'AI';
 	const installerUrl = config.ai5.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -672,7 +672,7 @@ function downloadAIAssistant6(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai6?.name || 'AI';
 	const installerUrl = config.ai6.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -757,7 +757,7 @@ function downloadAIAssistant7(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai7?.name || 'AI';
 	const installerUrl = config.ai7.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -842,7 +842,7 @@ function downloadAIAssistant8(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai8?.name || 'AI';
 	const installerUrl = config.ai8.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -927,7 +927,7 @@ function downloadAIAssistant9(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai9?.name || 'AI';
 	const installerUrl = config.ai9.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1012,7 +1012,7 @@ function downloadAIAssistant10(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai10?.name || 'AI';
 	const installerUrl = config.ai10.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1097,7 +1097,7 @@ function downloadAIAssistant11(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai11?.name || 'AI';
 	const installerUrl = config.ai11.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1182,7 +1182,7 @@ function downloadAIAssistant12(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai12?.name || 'AI';
 	const installerUrl = config.ai12.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1266,7 +1266,7 @@ function downloadAIAssistant13(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai13?.name || 'AI';
 	const installerUrl = config.ai13.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1351,7 +1351,7 @@ function downloadAIAssistant14(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai14?.name || 'AI';
 	const installerUrl = config.ai14.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1436,7 +1436,7 @@ function downloadAIAssistant15(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai15?.name || 'AI';
 	const installerUrl = config.ai15.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1521,7 +1521,7 @@ function downloadAIAssistant16(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai16?.name || 'AI';
 	const installerUrl = config.ai16.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1606,7 +1606,7 @@ function downloadAIAssistant17(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai17?.name || 'AI';
 	const installerUrl = config.ai17.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1691,7 +1691,7 @@ function downloadAIAssistant18(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai18?.name || 'AI';
 	const installerUrl = config.ai18.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1776,7 +1776,7 @@ function downloadAIAssistant19(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai19?.name || 'AI';
 	const installerUrl = config.ai19.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
@@ -1870,7 +1870,7 @@ function downloadAIAssistant21(launcher) {
 	const appRoot = config.baseDir || getRoot();
 	const installerName = config.ai21?.name || 'AI';
 	const installerUrl = config.ai21.download;
-	const installerPath = path.join(appRoot, 'inc', path.basename(installerUrl));
+	const installerPath = path.join(appRoot, 'bin', path.basename(installerUrl));
 
 	// Check if installer already exists and is valid
 	if (fs.existsSync(installerPath)) {
