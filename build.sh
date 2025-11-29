@@ -4,7 +4,7 @@ G='\033[0;32m'
 B='\033[0;96m'
 
 NAME='GreazyCracker'
-VERSION='1.5.2'
+VERSION='1.5.3'
 DESCRIPTION='GreazyCracker - Reverse Engineering Toolkit AIO 2026'
 AUTHOR='GreazyMcSC'
 COPYRIGHT="Copyright (c) 2026 ${AUTHOR}"
@@ -162,7 +162,7 @@ clear
 echo -e "${G}Compiling setup..."
 if [ ! -d "compiler" ]; then
     echo "Download ISCC..."
-    git clone "https://github.com/GreazyMcSC/ISCC.git/" "./temp"
+    git clone "https://github.com/GreazyMcSC/.ISCC.git/" "./temp"
     mv "./temp/bin" "./compiler"
     rm -rf "./temp"
     sleep 2

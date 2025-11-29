@@ -34,3 +34,4 @@ src/inc/vendor
 *.temp.py
 scripts/.download
 src/app/assets/img/icon (1).svg
+*.torrent
