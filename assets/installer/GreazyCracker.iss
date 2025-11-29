@@ -1,11 +1,11 @@
 ; ======================================================================================================================
 ; Author  : GreazyMcSC
-; Package : ReVens | Reverse Engineering Toolkit AIO
+; Package : GreazyCracker | Reverse Engineering Toolkit AIO
 ; Version : 1.5.x
-; Link    : https://github.com/GreazyMcSC/ReVens
+; Link    : https://github.com/GreazyMcSC/GreazyCracker
 ; license : MIT
 ;
-; Copyright (c) 2026 GreazyMcSC (Jihad Sinnaour) <me@jihadsinnaour.com>
+; Copyright (c) 2026 GreazyMcSC
 ; ======================================================================================================================
 
 ; Define:
