@@ -401,7 +401,7 @@
 	},
 	"ai": {
 		"name": "Ollama",
-		"handler": "GreazyCrackerai",
+		"handler": "ollama",
 		"model": "gemma3:4b",
 		"tag": "latest",
 		"url": "https://ollama.com",
